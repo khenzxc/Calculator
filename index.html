@@ -10,7 +10,6 @@
 <body>
     <div class="iphone-calculator">
         <div class="display" id="display">0</div>
-        <!-- ...existing code... -->
         <div class="buttons">
             <button class="btn gray" onclick="clearDisplay()">AC</button>
             <button class="btn gray" onclick="input('%')">%</button>
@@ -34,9 +33,8 @@
 
             <button class="btn zero" onclick="input('0')">0</button>
             <button class="btn" onclick="input('.')">.</button>
-            <button class="btn orange" onclick="showLyrics()">=</button>
+            <button class="btn orange" id="equal-btn" onclick="equal()">=</button>
         </div>
-        <!-- ...existing code... -->
     </div>
     <script src="script.js"></script>
 </body>
